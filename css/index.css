@@ -3,7 +3,7 @@
     margin: 0px;
 }
 .bg{
-    background: #f9f7fe;
+    background: rgba(147, 107, 232, 0.05);
 }
 /* Header */
 
@@ -56,7 +56,7 @@
 }
 
 
-/* carousel */
+/* About */
 
 .about{
     text-align: center;
@@ -65,4 +65,23 @@
 
 .about__readmore a{
     text-decoration: none;
+}
+
+/* carousel item */
+
+.content_item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+   
+}
+.content__list{
+    background: white;
+    margin: 25px;
+    padding: 55px;
+    border-radius: 15px;
+}
+.content__list i{
+    color: #189A46;
+    font-size: 35px;
 }
